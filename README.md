@@ -5,7 +5,7 @@ cert-manager ACME DNS01 Webhook Solver for Njalla DNS
 ## Installing
 
 ```bash
-$ git clone https://github.com/balzanelli/cert-manager-webhook-njalla.git
+$ git clone https://github.com/nberlee/cert-manager-webhook-njalla.git
 $ cd cert-manager-webhook-njalla
 $ helm install cert-manager-webhook-njalla deploy/cert-manager-webhook-njalla --namespace cert-manager -f deploy/cert-manager-webhook-njalla/values.yaml
 ```
