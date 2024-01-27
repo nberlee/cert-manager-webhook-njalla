@@ -21,8 +21,8 @@ type APIResponse struct {
 
 // APIError is an API error.
 type APIError struct {
-	Code    int
-	Message string
+	Code    int    `json:"code"`
+	Message string `json:"message,omitempty"`
 }
 
 func (a APIError) Error() string {
