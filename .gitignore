@@ -19,3 +19,6 @@
 
 # JetBrains
 .idea
+
+# golang binary
+cert-manager-webhook-njalla
